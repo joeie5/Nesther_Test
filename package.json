@@ -1,0 +1,49 @@
+{
+  "name": "Nesther Clinic",
+  "displayName": "Nesther Clinic",
+  "version": "1.0.0",
+  "description": "Consult a Doctor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Kricweb",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-inappbrowser": "^3.2.0",
+    "cordova-plugin-media": "^5.0.3",
+    "cordova-plugin-media-capture": "^3.0.3",
+    "cordova-plugin-splashscreen": "^5.0.3",
+    "cordova-plugin-vibration": "^3.1.1",
+    "cordova-sqlite-storage": "^5.0.0"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-media": {
+        "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO"
+      },
+      "cordova-plugin-file": {},
+      "cordova-sqlite-storage": {}
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  }
+}
